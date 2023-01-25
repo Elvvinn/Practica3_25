@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navsection {
+    width: 100%;
+    min-height: 8vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+
+    .generaldiv {
+        width: 100%;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+
+        .studiodiv {
+            padding-left: 20px;
+            color: rgb(148, 145, 145);
+
+            .links {
+                text-decoration: none;
+                color: rgb(148, 145, 145);
+            }
+        }
+
+        .as {
+            padding: 20px;
+            word-spacing: 20px;
+            color: rgb(148, 145, 145);
+
+            .links {
+                text-decoration: none;
+                color: rgb(148, 145, 145);
+            }
+        }
+    }
+}

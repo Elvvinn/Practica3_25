@@ -1,0 +1,59 @@
+.sectiondiv {
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+
+    .servicessec {
+        margin-top: 40px;
+        padding-bottom: 30px;
+
+        h3 {
+            font-size: 2rem;
+            font-style: italic;
+            color: rgb(21, 108, 214);
+        }
+
+        p {
+            padding-top: 10px;
+            color: rgb(94, 92, 92);
+            font-style: italic;
+        }
+    }
+}
+
+.generalelementdiv {
+
+    max-width: 80;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+
+    .elementdiv {
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        height: 200px;
+        align-items: center;
+        gap: 10px;
+
+        i {
+            font-size: 50px;
+            background-color: blue;
+            border-radius: 50%;
+            width: 105px;
+            height: 55px;
+
+        }
+
+        p {
+            color: rgb(29, 28, 28);
+        }
+
+        h4 {
+            max-width: 50%;
+            color: rgb(174, 170, 170);
+        }
+    }
+
+}

@@ -1,0 +1,47 @@
+.headersection {
+    width: 100%;
+    height: 90vh;
+    background-image: url("https://images.ctfassets.net/lzny33ho1g45/T5qqQQVznbZaNyxmHybDT/b76e0ff25a495e00647fa9fa6193a3c2/best-url-shorteners-00-hero.png?w=1520&fm=jpg&q=30&fit=thumb&h=760");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .generaldivheader {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: rgb(3, 5, 35);
+
+        h2 {
+            font-size: 2rem;
+            font-style: italic;
+        }
+
+        h4 {
+            font-size: 4rem;
+
+        }
+
+        button {
+            margin-top: 60px;
+            width: 120px;
+            height: 35px;
+            border: 1px solid black;
+            border-radius: 7px;
+            background-color: rgba(11, 32, 137, 0.43);
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            border: none;
+
+            &:hover {
+                transition: 0.3s;
+                background-color: rgb(15, 15, 74);
+            }
+        }
+    }
+}
